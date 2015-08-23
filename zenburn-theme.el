@@ -141,13 +141,13 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(mode-line
      ((,class (:foreground ,zenburn-green+1
                            :background ,zenburn-bg-1
-                           :box (:line-width -1 :style released-button)))
+                           :box (:line-width 1 :color ,zenburn-bg-1)))
       (t :inverse-video t)))
    `(mode-line-buffer-id ((t (:foreground ,zenburn-yellow :weight bold))))
    `(mode-line-inactive
      ((t (:foreground ,zenburn-green-1
                       :background ,zenburn-bg-05
-                      :box (:line-width -1 :style released-button)))))
+                      :box (:line-width 1 :color ,zenburn-bg-05)))))
    `(region ((,class (:background ,zenburn-bg-1))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,zenburn-bg+2))))
