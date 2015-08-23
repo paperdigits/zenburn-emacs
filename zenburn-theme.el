@@ -783,6 +783,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(mu4e-cited-7-face ((t (:foreground ,zenburn-blue    :slant italic))))
    `(mu4e-replied-face ((t (:foreground ,zenburn-bg+3))))
    `(mu4e-trashed-face ((t (:foreground ,zenburn-bg+3 :strike-through t))))
+   `(mu4e-header-highlight-face ((,class (:underline nil :inherit region))))
+   `(mu4e-header-marks-face ((,class (:underline nil :foreground ,zenburn-yellow))))
 ;;;;; mumamo
    `(mumamo-background-chunk-major ((t (:background nil))))
    `(mumamo-background-chunk-submode1 ((t (:background ,zenburn-bg-1))))
